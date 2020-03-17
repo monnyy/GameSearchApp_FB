@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Game Search App</string>
+    <string name="sorry_nothing_to_display_n_try_searching_something_else">Sorry, Nothing to display. \n Try searching something else</string>
+</resources>

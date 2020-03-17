@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/search_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#ADADAD"
+        android:gravity="center_horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:padding="5dp"
+        android:queryHint="Search..."
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/alt_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/sorry_nothing_to_display_n_try_searching_something_else"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:numColumns="auto_fit" />
+
+
+</LinearLayout>
