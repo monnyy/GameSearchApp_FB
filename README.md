@@ -8,6 +8,6 @@
 
 The animation below represents a depiction of the app's functionalities (it lasts *_~1min_*).
 
-![App Demo](https://github.com/monnyy/GameSearchApp_FB/blob/master/demo/output_mp_challenge.gif)
+<img src="https://github.com/monnyy/GameSearchApp_FB/blob/master/demo/output_mp_challenge.gif" alt="App Demo" width="350"/>
 
 
